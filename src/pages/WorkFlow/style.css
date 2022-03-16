@@ -1,0 +1,38 @@
+
+.react-flow__node-selectorNode {
+    font-size: 12px;
+    background: #eee;
+    border: 1px solid #555;
+    border-radius: 5px;
+    text-align: center;
+}
+.react-flow{
+    min-height: 1000px;
+    width: 100%!important;
+    height: auto!important;
+}
+@media(max-width: 768px) {
+    .react-flow{
+        min-height: 400px;
+        width: 100%!important;
+        height: auto!important;
+    }
+}
+.react-flow__minimap{
+    display: none;
+}
+.border-custom{
+    border: 5px solid yellow;
+    background-color: #1A192B;
+}
+
+.hoverable-custom{
+    transition: all 0.2ms!important;
+    cursor: pointer!important;
+    font-weight: bold!important;
+}
+.hoverable-custom:hover{
+    background-color: #1A192B;
+    color: white;
+
+}
